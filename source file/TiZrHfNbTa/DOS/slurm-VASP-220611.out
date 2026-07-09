@@ -1,0 +1,215 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    1 cores,   24 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Apr 17 2020 20:39:25) complex          
+  
+ POSCAR found type information on POSCAR  Ti Nb Hf N  C  Zr Ta
+ POSCAR found :  7 types and      64 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection operators      |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind: If you want to do a very accurate calculations keep the          |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+
+
+ VERY BAD NEWS! internal error in subroutine IBZKPT:
+ Reciprocal lattice and k-lattice belong to different class of lattices. Often results are still useful...     168
+ found WAVECAR, reading the header
+  number of k-points has changed, file:    14 present:   112
+  trying to continue reading WAVECAR, but it might fail
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: HEBCN                                   
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.585751303667E+03   -0.58575E+03   -0.34426E+03 91056   0.153E+02
+RMM:   2    -0.647279789154E+03   -0.61528E+02   -0.61405E+02118100   0.522E+01
+RMM:   3    -0.651670814693E+03   -0.43910E+01   -0.10066E+02119252   0.246E+01
+RMM:   4    -0.655007659985E+03   -0.33368E+01   -0.40900E+01133395   0.112E+01
+RMM:   5    -0.657024367401E+03   -0.20167E+01   -0.23184E+01122231   0.749E+00
+RMM:   6    -0.657967035984E+03   -0.94267E+00   -0.12043E+01137512   0.436E+00
+RMM:   7    -0.658616854297E+03   -0.64982E+00   -0.74617E+00133022   0.375E+00
+RMM:   8    -0.659018200107E+03   -0.40135E+00   -0.46801E+00137135   0.259E+00
+RMM:   9    -0.659285124695E+03   -0.26692E+00   -0.30393E+00134136   0.235E+00
+RMM:  10    -0.659464247967E+03   -0.17912E+00   -0.20518E+00134535   0.167E+00
+RMM:  11    -0.659582456997E+03   -0.11821E+00   -0.13524E+00130532   0.155E+00
+RMM:  12    -0.659662881971E+03   -0.80425E-01   -0.92529E-01131160   0.110E+00
+RMM:  13    -0.659715369025E+03   -0.52487E-01   -0.60405E-01129618   0.102E+00
+RMM:  14    -0.659751790617E+03   -0.36422E-01   -0.41969E-01129971   0.726E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      6
+RMM:  15    -0.659775661719E+03   -0.23871E-01   -0.27551E-01127954   0.685E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+RMM:  16    -0.659792217673E+03   -0.16556E-01   -0.19145E-01128940   0.482E-01
+RMM:  17    -0.659802967711E+03   -0.10750E-01   -0.12463E-01127062   0.448E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+RMM:  18    -0.659810547683E+03   -0.75800E-02   -0.87752E-02126921   0.319E-01
+RMM:  19    -0.659815473323E+03   -0.49256E-02   -0.57327E-02124431   0.297E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      6
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+RMM:  20    -0.659818975006E+03   -0.35017E-02   -0.40657E-02124543   0.213E-01
+RMM:  21    -0.659821250601E+03   -0.22756E-02   -0.26628E-02122138   0.194E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      6
+RMM:  22    -0.659822870433E+03   -0.16198E-02   -0.18884E-02121428   0.142E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      5
+RMM:  23    -0.659823941355E+03   -0.10709E-02   -0.12566E-02118111   0.131E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      3
+RMM:  24    -0.659824705105E+03   -0.76375E-03   -0.89515E-03117204   0.954E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      5
+RMM:  25    -0.659825211658E+03   -0.50655E-03   -0.59819E-03113361   0.865E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      4
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      3
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      3
+RMM:  26    -0.659825577509E+03   -0.36585E-03   -0.43052E-03110947   0.647E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+RMM:  27    -0.659825824041E+03   -0.24653E-03   -0.29244E-03105488   0.593E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      3
+RMM:  28    -0.659826002266E+03   -0.17823E-03   -0.21111E-03103066   0.448E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      4
+RMM:  29    -0.659826123671E+03   -0.12141E-03   -0.14503E-03 98238   0.407E-02
+RMM:  30    -0.659826212150E+03   -0.88479E-04   -0.10554E-03 95901   0.319E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      4
+RMM:  31    -0.659826273255E+03   -0.61105E-04   -0.73544E-04 90996   0.289E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      4
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      4
+RMM:  32    -0.659826317823E+03   -0.44568E-04   -0.53738E-04 88186   0.232E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      4
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      8
+RMM:  33    -0.659826348654E+03   -0.30831E-04   -0.37670E-04 83320   0.210E-02
+RMM:  34    -0.659826371316E+03   -0.22661E-04   -0.27763E-04 80484   0.177E-02
+RMM:  35    -0.659826387145E+03   -0.15830E-04   -0.19767E-04 76145   0.160E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      4
+RMM:  36    -0.659826398934E+03   -0.11789E-04   -0.14874E-04 73454   0.142E-02
+RMM:  37    -0.659826407244E+03   -0.83098E-05   -0.10877E-04 69875   0.131E-02
+RMM:  38    -0.659826413362E+03   -0.61177E-05   -0.82762E-05 67126   0.122E-02
+   1 F= -.65982641E+03 E0= -.65977602E+03  d E =-.100786E+00

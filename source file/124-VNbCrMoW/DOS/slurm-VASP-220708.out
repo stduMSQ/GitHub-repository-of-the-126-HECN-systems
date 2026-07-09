@@ -1,0 +1,94 @@
+ running on   24 total cores
+ distrk:  each k-point on   24 cores,    1 groups
+ distr:  one band on    1 cores,   24 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Apr 17 2020 20:39:25) complex          
+  
+ POSCAR found type information on POSCAR  Nb W  V  N  C  Cr Mo
+ POSCAR found :  7 types and      64 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For optimal performance we recommend to set                            |
+|        NCORE= 4 - approx SQRT( number of cores)                             |
+|      NCORE specifies how many cores store one orbital (NPAR=cpu/NCORE).     |
+|      This setting can  greatly improve the performance of VASP for DFT.     |
+|      The default,   NCORE=1            might be grossly inefficient         |
+|      on modern multi-core architectures or massively parallel machines.     |
+|      Do your own testing !!!!                                               |
+|      Unfortunately you need to use the default for GW and RPA calculations. |
+|      (for HF NCORE is supported but not extensively tested yet)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|  ADVICE TO THIS USER RUNNING 'VASP/VAMP'   (HEAR YOUR MASTER'S VOICE ...):  |
+|                                                                             |
+|      You have a (more or less) 'large supercell' and for larger cells       |
+|      it might be more efficient to use real space projection operators      |
+|      So try LREAL= Auto  in the INCAR   file.                               |
+|      Mind: If you want to do a very accurate calculations keep the          |
+|      reciprocal projection scheme          (i.e. LREAL=.FALSE.)             |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+  number of k-points has changed, file:    14 present:   112
+  trying to continue reading WAVECAR, but it might fail
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ charge-density read from file: HEBCN                                   
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.536860092396E+03   -0.53686E+03   -0.39051E+03 89928   0.278E+02
+RMM:   2    -0.615462609279E+03   -0.78603E+02   -0.78085E+02121689   0.799E+01
+RMM:   3    -0.625794683355E+03   -0.10332E+02   -0.13905E+02130016   0.245E+01
+RMM:   4    -0.629994337614E+03   -0.41997E+01   -0.46710E+01115532   0.188E+01
+RMM:   5    -0.633693844813E+03   -0.36995E+01   -0.37206E+01125041   0.880E+00
+RMM:   6    -0.635220087606E+03   -0.15262E+01   -0.15758E+01116392   0.816E+00
+RMM:   7    -0.636085902998E+03   -0.86582E+00   -0.84948E+00125341   0.408E+00
+RMM:   8    -0.636498569264E+03   -0.41267E+00   -0.41842E+00130086   0.320E+00
+RMM:   9    -0.636739157803E+03   -0.24059E+00   -0.23774E+00132296   0.215E+00
+RMM:  10    -0.636882146992E+03   -0.14299E+00   -0.14727E+00127827   0.188E+00
+RMM:  11    -0.636966831178E+03   -0.84684E-01   -0.85588E-01128037   0.131E+00
+RMM:  12    -0.637016298730E+03   -0.49468E-01   -0.51597E-01124079   0.113E+00
+RMM:  13    -0.637043084658E+03   -0.26786E-01   -0.27788E-01124322   0.829E-01
+RMM:  14    -0.637061009169E+03   -0.17925E-01   -0.18698E-01120734   0.663E-01
+RMM:  15    -0.637070691348E+03   -0.96822E-02   -0.10117E-01119653   0.495E-01
+RMM:  16    -0.637076676974E+03   -0.59856E-02   -0.63122E-02116444   0.397E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      8
+RMM:  17    -0.637080218292E+03   -0.35413E-02   -0.36955E-02114525   0.314E-01
+RMM:  18    -0.637082508386E+03   -0.22901E-02   -0.24048E-02111809   0.256E-01
+RMM:  19    -0.637083929663E+03   -0.14213E-02   -0.14825E-02111303   0.198E-01
+RMM:  20    -0.637084789714E+03   -0.86005E-03   -0.90785E-03109936   0.162E-01
+RMM:  21    -0.637085354098E+03   -0.56438E-03   -0.58899E-03109269   0.124E-01
+RMM:  22    -0.637085702616E+03   -0.34852E-03   -0.36654E-03107832   0.105E-01
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      8
+RMM:  23    -0.637085925945E+03   -0.22333E-03   -0.23356E-03106331   0.813E-02
+RMM:  24    -0.637086069404E+03   -0.14346E-03   -0.15013E-03104361   0.686E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3     10
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      6
+RMM:  25    -0.637086162716E+03   -0.93312E-04   -0.97260E-04101961   0.544E-02
+RMM:  26    -0.637086223749E+03   -0.61033E-04   -0.63886E-04 98792   0.453E-02
+RMM:  27    -0.637086262938E+03   -0.39189E-04   -0.41089E-04 94604   0.372E-02
+RMM:  28    -0.637086288977E+03   -0.26039E-04   -0.27451E-04 90531   0.312E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   8  4      9
+RMM:  29    -0.637086306291E+03   -0.17314E-04   -0.18362E-04 85071   0.267E-02
+RMM:  30    -0.637086317547E+03   -0.11255E-04   -0.12099E-04 79832   0.232E-02
+WARNING in EDDRMM: call to ZHEGV failed, returncode =   6  3      6
+RMM:  31    -0.637086325512E+03   -0.79657E-05   -0.86323E-05 73738   0.203E-02
+   1 F= -.63708633E+03 E0= -.63699691E+03  d E =-.178838E+00
